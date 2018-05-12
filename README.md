@@ -24,7 +24,22 @@ designing with grid-based approach: http://bit.ly/1CM4Hzo
 
 ### 12 Magic number for Grids
 
+Do not go over 12 coloumns/rows
+
+### Container
+Encompases a whole element 
+
 ## Rows and Columns
+ORDER in HTML
+*container
+*row
+*coloumn 
+<div class="container">
+            <div class="row">
+                    <div class="col-md-2">
+                        <div class="row"> for sub row/coloumn
+                            <div class="col-md-2">
+
 
 col-md-*   col-(size)-(number of columns)
 
