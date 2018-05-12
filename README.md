@@ -48,3 +48,20 @@ space inbetween columns/rows is margins
 12 is defined at whatever point the developer decides 
 
 
+### Media queries 
+define how css styles are applied in relation to the characteristics of the device viewpoint
+
+Through media queries you can change the way a web page is displayed
+
+media queries must be declared last
+
+*Mobile First - mobile is most common way of access 
+ *pixel based break points to differeniate between destop/mobile pages*
+
+Media Query 
+ @media screen and (max-width: 768px) {
+
+        background-color: #333;
+
+ }
+
