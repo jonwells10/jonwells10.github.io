@@ -1,4 +1,4 @@
-//all choices available for computer to randomly pick from
+//choices available for computer to randomly pick from
 var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z"];
 
 //set all variables to zero
@@ -9,8 +9,7 @@ var guessesLeft = 9;
 var guessedLetters = [];
 var letterToGuess = undefined;
 
-//functions for the "new" variables after game begins and user pushes keys
-//this is where connect to HTML to fill in visual data for user 
+//functions for the variables after game begins and user pushes keys
 
 var newGuessesLeft = function() {
     document.querySelector("#guessLeft").innerHTML = "Guesses Left: " + guessesLeft;
@@ -57,13 +56,13 @@ document.onkeyup = function(event) {
         if (userGuess == letterToGuess) {
             wins++;
             document.querySelector('#win').innerHTML = "Wins: " + wins;
-            alert("Wow! You are psychic! Try another!");
+            alert("Amazing you are psychic! Try another!");
             reset();
         }
     } else if (guessesLeft == 0) {
         losses++;
         document.querySelector('#loss').innerHTML = "Losses: " + losses;
-        alert("Boo, you're not psychic... try again!");
+        alert("You my friend are not psychic... try again!");
 
         reset();
     }
