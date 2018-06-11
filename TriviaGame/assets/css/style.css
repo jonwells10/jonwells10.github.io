@@ -1,28 +1,61 @@
-body{
-	background: url('../images/cloudBG.jpeg');
-	font-family: 'Raleway', sans-serif;
-	font-size: 25px;
+header{
+    margin-bottom: 10px;
+    max-width: 20%;
+    margin: 0 auto;
 }
 
-header{
-	margin-bottom: 20px;
+body{
+    background: url('../images/background.jpg') no-repeat center 130px;  
+    background-color: slategray;
+    color: rgb(132, 255, 198);
+    font-style: bold; 
+    position: relative;
+    width: 100%;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    height: 250px;
 }
 
 .btn-primary,.reset{
 	background-color: #313477;
-	color: white;
+    color: white;
 	font-family: 'Sigmar One', sans-serif;
 	font-size: 30px;
 	padding: 20px;
-	margin-top: 100px;
+    margin-top: 100px;
+    position: absolute;
+    transition: .5s ease;
+    left:330px;
+    top: 400px;
 }
 .btn-primary:hover, .reset:hover{
-	background-color: #202364;
+	background-color: bisque;
 }
 
 .container{
-	margin-top: 50px;
+    border-width: 10px;
+	margin-top: 20px;
 	text-align: center;
 	height: 100%;
-	width: 700px;
+	width: 300px;
 }
+
+h2, h3, .thisChoice, #currentQuestion, #correctAnswer #message, #finalMessage{
+    font-family: 'Sigmar One';
+    background-color: rgba(153, 153, 153, 0.658);
+
+}
+
+.thisChoice:hover{
+	background-color: #00ffff;
+	color: navajowhite;
+	padding: 10px;
+}
+
+/* @media screen and (max-width:640px){
+	.container{
+		width: 500px;
+		margin-top: 200px;
+		size: 200%;
+	}	
+} */
