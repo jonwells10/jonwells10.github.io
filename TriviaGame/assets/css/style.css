@@ -5,28 +5,25 @@ header{
 }
 
 body{
-    background: url('../images/background.jpg') no-repeat center 130px;  
+    background: url('../images/background.jpg') no-repeat center 135px;  
     background-color: slategray;
-    color: rgb(132, 255, 198);
+    color: rgb(251, 255, 0);
     font-style: bold; 
     position: relative;
     width: 100%;
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 40px;
-    height: 250px;
+    height: 270px;
 }
 
 .btn-primary,.reset{
-	background-color: #313477;
-    color: white;
-	font-family: 'Sigmar One', sans-serif;
-	font-size: 30px;
-	padding: 20px;
-    margin-top: 100px;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    padding: 20px;
     position: absolute;
-    transition: .5s ease;
-    left:330px;
-    top: 400px;
+    /* left:800px;
+    top: 25px; */
 }
 .btn-primary:hover, .reset:hover{
 	background-color: bisque;
@@ -40,15 +37,17 @@ body{
 	width: 300px;
 }
 
-h2, h3, .thisChoice, #currentQuestion, #correctAnswer #message, #finalMessage{
-    font-family: 'Sigmar One';
-    background-color: rgba(153, 153, 153, 0.658);
+h2, h3 {
+    background-color: rgba(0, 0, 0, 0.61);
+}
 
+.thisChoice, #currentQuestion, #correctAnswers, #correctedAnswer, #message, #timeleft, #finalMessage{
+    background-color: rgba(255, 2, 2, 0.660);
 }
 
 .thisChoice:hover{
 	background-color: #00ffff;
-	color: navajowhite;
+	color: rgb(183, 0, 255);
 	padding: 10px;
 }
 
