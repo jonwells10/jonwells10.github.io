@@ -1,38 +1,38 @@
 var triviaQuestions = [{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
+	question: "I'm trying to right my wrongs, but it's funny those same wrongs helped me write this song.",
+	answerList: ["Kanye West", "Lil Wayne", "Lil Kim", "Common"],
 	answer: 0
 },{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
+	question: "Instead of war on poverty, they got a war on drugs so the police can bother me.",
+	answerList: ["Kid Cudi", "Eazy E", "2Pac", "Big L"],
+	answer: 2
+},{
+	question: "In fact, I'm downin' this D'USSÉ with my boo bae, tastes like Kool-Aid for the analysts.",
+	answerList: ["J. Cole", "Nax", "Kendrick Lamar", "Dr. Dre"],
+	answer: 2
+},{
+	question: "I got enimies, got alot of enimies. Got a lot of people tryin' to drain me of this energy.",
+	answerList: ["Eminem", "Drake", "Jay-Z", "Missy Elliot"],
+	answer: 1
+},{
+	question: "I keep my twisted grill, just to show them kids it's real. We ain't picture perfect but we worth the picture still",
+	answerList: ["J Cole", "Big Boi", "Paul Wall", "Juvenile"],
 	answer: 0
 },{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
+	question: "Every day you wake up your destiny depends on what you do. Sometimes I roll up when I'm stressed out and sometimes I roll two",
+	answerList: ["Brother Ali", "Lil Pump", "Snoop Dogg", "Wiz Khalifa"],
+	answer: 3
+},{
+	question: "I'm not a business man, I'm a business man! Let me handle my business, damn!",
+	answerList: ["Notorious BIG", "Jay Z", "Kendrick Lamar", "Big Sean"],
+	answer: 1
+},{
+	question: "Is it worth it? Let me work it. I put my thing down, flip it and reverse it",
+	answerList: ["Missy Elliot", "Cardi B", "Mystikal", "Nicki Minaj"],
 	answer: 0
 },{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
+	question: "I let my tape rock til my tapped popped.  Smokin' weed in bamboo, sipping on private stock.",
+	answerList: ["yes", "no", "maybe", "Notorious BIG"],
 	answer: 0
 },{
 	question: "hip hop trivia?",
