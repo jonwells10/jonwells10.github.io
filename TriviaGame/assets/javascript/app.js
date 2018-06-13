@@ -32,32 +32,32 @@ var triviaQuestions = [{
 	answer: 0
 },{
 	question: "I let my tape rock til my tapped popped.  Smokin' weed in bamboo, sipping on private stock.",
-	answerList: ["yes", "no", "maybe", "Notorious BIG"],
+	answerList: ["LL Cool J", "Big L", "Lil Wayne", "Notorious BIG"],
+	answer: 3
+},{
+	question: "You never been on a ride like this before. With a producer who can rap and control the maestro",
+	answerList: ["Snoop Dogg", "Shaq", "Dr. Dre", "Ice T"],
+	answer: 2
+},{
+	question: "Just waking up in the morning gotta thank God. I don't know but today seems kinda odd",
+	answerList: ["Ice T", "Ice Cube", "Coolio", "Snoop Dogg"],
+	answer: 1
+},{
+	question: "Anytime you want to pick up the telephone. You know it ain't nothin' to drop a couple stacks on you",
+	answerList: ["T.I.", "50 Cent", "Lil Wayne", "Birdman"],
 	answer: 0
 },{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
+	question: "We only humans girl we make mistakes, to make it up I do whatever it take. I love you like a fat kid love cake",
+	answerList: ["50 Cent", "T.I.", "Jay Z", "Eminem"],
 	answer: 0
 },{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
+	question: "Lodi dodi we came to party. We don't cause trouble we don't bother nobody",
+	answerList: ["DMX", "Snoop Dogg", "Lil Wayne", "Drake"],
+	answer: 1
 },{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
-},{
-	question: "hip hop trivia?",
-	answerList: ["yes", "no", "maybe", "probably"],
-	answer: 0
+	question: "His palms are sweaty, knees weak, arms are heavy. There's vomit on his sweater already, mom's spaghetti ",
+	answerList: ["Will Smith", "2Pac", "Young Jeezy", "Eminem"],
+	answer: 3
 }];
 
 var gifArray = ['question1', 'question2', 'question3', 'question4', 'question5', 'question6', 'question7', 'question8', 'question9', 'question10', 'question11', 'question12', 'question13','question14','question15'];
@@ -109,7 +109,6 @@ function newQuestion(){
     }
     
     countdown();
-	//clicking an answer will pause the time and setup answerPage
 	$('.thisChoice').on('click',function(){
 		userSelect = $(this).data('index');
 		clearInterval(time);
@@ -120,7 +119,7 @@ function newQuestion(){
 function countdown(){
 	seconds = 15;
 	$('#timeLeft').html('<h3>Time Remaining: ' + seconds + '</h3>');
-	answered = true;
+    answered = true;
 	//sets timer to go down
 	time = setInterval(showCountdown, 1000);
 }
@@ -137,13 +136,12 @@ function showCountdown(){
 
 function answerPage(){
 	$('#currentQuestion').empty();
-	$('.thisChoice').empty(); //Clears question page
+	$('.thisChoice').empty(); 
 	$('.question').empty();
 
 	var rightAnswerText = triviaQuestions[currentQuestion].answerList[triviaQuestions[currentQuestion].answer];
-	var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
-	// $('#gif').html('<img src = "assets/images/'+ gifArray[currentQuestion] +'.gif" width = "400px">');
-	//checks to see correct, incorrect, or unanswered
+    var rightAnswerIndex = triviaQuestions[currentQuestion].answer;
+    
 	if((userSelect == rightAnswerIndex) && (answered == true)){
 		correctAnswer++;
 		$('#message').html(messages.correct);
