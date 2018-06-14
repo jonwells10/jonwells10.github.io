@@ -8,7 +8,7 @@ var triviaQuestions = [{
 	answer: 2
 },{
 	question: "In fact, I'm downin' this D'USSÉ with my boo bae, tastes like Kool-Aid for the analysts.",
-	answerList: ["J. Cole", "Nax", "Kendrick Lamar", "Dr. Dre"],
+	answerList: ["J. Cole", "Nas", "Kendrick Lamar", "Dr. Dre"],
 	answer: 2
 },{
 	question: "I got enimies, got alot of enimies. Got a lot of people tryin' to drain me of this energy.",
@@ -66,7 +66,7 @@ var messages = {
 	correct: "I said a Hip Hop Hooray, that's right!",
 	incorrect: "Inncorrect your flow is weak son!",
 	endTime: "OOPS! Times up!",
-    finished: "Okay, Let's see if you're dope or a dope."
+    finished: "Okay, Let's see if your dope or a dope."
 }
 
 $('#startBtn').on('click', function(){
