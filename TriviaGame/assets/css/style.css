@@ -45,10 +45,10 @@ h2, h3 {
     background-color: rgba(255, 2, 2, 0.660);
 }
 
-#correctAnswers, {
+#correctAnswers {
     background-color: limegreen;
 }
-#unanswered, {
+#unanswered {
     background-color: black;
 }
 
