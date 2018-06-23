@@ -74,3 +74,5 @@ database = database.firebase ()
 .ref() specifies where the data will be saved
 
 .on ("value", function (){}) which creats an "on-change" event so that the moment the page first loads or the moment the database changes, the impact is reflected immediately 
+
+
