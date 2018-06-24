@@ -42,8 +42,8 @@ var config = {
 
     let timeObj = moment(newTrain.time, 'HH:mm');
     console.log(timeObj);
-    let minsAway = moment().diff(timeObj, 'HH:mm')
-    console.log(minsAway)
+    let minsAway = moment(timeObj, 'HH:mm').fromNow('mins')
+    console.log(minsAway);
  
 
     let trainTd = $('<td>' + newTrain.train + '</td>')
@@ -56,8 +56,8 @@ var config = {
     let row = $('<tr>');
     row.append(trainTd)
     row.append(destinationTd)
-    row.append(timeTd)
     row.append(frequencyTd)
+    row.append(timeTd)
     row.append(minsTd)
     
 
