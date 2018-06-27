@@ -3,13 +3,15 @@
 }
 
 
-#animalSwitch{
+/* #animalSwitch{
     padding: 20px;
     margin: 20px auto;
     clear: both;
-    
-}
+} */
 
+.btn-primary{
+    margin: 5px;
+}
 
 #anmial-form{
     padding: 10px;
@@ -32,6 +34,7 @@
     height: 40px;
     font-weight: bold;
     border-radius: 5px;
+    border-spacing: 2px;
 
 }
 .animalBTN:hover{
