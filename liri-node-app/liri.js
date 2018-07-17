@@ -1,12 +1,12 @@
 require("dotenv").config();
 
-var keys = require("./keys.js");
+var keys = require("./key");
 
 var request = require('request');
-var Twitter = require('twitter');
-var Spotify = require('node-spotify-api');
+var twitter = require('twitter');
+var spotify = require('node-spotify-api');
 var fs = require('fs');
-var client = new Twitter(keys.twitterKeys);
+// var client = new Twitter(keys.twitter);
 var input = process.argv;
 var action = input[2];
 var inputs = input[3];
@@ -46,7 +46,7 @@ function twitter(inputs) {
 
 function spotify(inputs) {
 
-	var spotify = new Spotify(keys.spotifyKeys);
+	var spotify = new Spotify(keys.spotify);
 		if (!inputs){
         	inputs = 'The Sign';
     	}
