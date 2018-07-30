@@ -75,4 +75,26 @@ database = database.firebase ()
 
 .on ("value", function (){}) which creats an "on-change" event so that the moment the page first loads or the moment the database changes, the impact is reflected immediately 
 
+### Coding websites   
+codeschool
+linda - can login through your library (hennepin)
+Pluralsight 
+
+### Server / Client 
+What is a server - machine and code that handles requests and responds to them
+
+
+What is a Client - Users personal machine that wants to access the server
+
+Client and Server communicate using series of understood communications defined by HTTP/HTTPs.
+
+### App to add for Mac
+Magnet
+
+### FS vs Http/Https
+FS - File System - hangles commuciation with files on your system
+Http - handels network communication
+
+_dirname - is a variable that is populated in the global wrapper for node
+
 
