@@ -50,7 +50,7 @@ function promptUserPurchase() {
 	]).then(function(input) {
 		// console.log('Customer has selected: \n    item_id = '  + input.item_id + '\n    quantity = ' + input.quantity);
 
-		var item = input.item_id;
+		var item = input.item_ID;
 		var quantity = input.stock_qty;
 
 		// Query db to confirm that the given item ID exists in the desired quantity
@@ -120,9 +120,9 @@ function displayInventory() {
 		var strOut = '';
 		for (var i = 0; i < data.length; i++) {
 			strOut = '';
-			strOut += 'Item ID: ' + data[i].item_id + '  //  ';
+			strOut += 'Item ID: ' + data[i].item_ID + '  //  ';
 			strOut += 'Product Name: ' + data[i].product_name + '  //  ';
-			strOut += 'Department: ' + data[i].department_name + '  //  ';
+			strOut += 'Department: ' + data[i].department_Name + '  //  ';
             strOut += 'Price: $' + data[i].price + '\n';
             strOut += 'Quantity: ' + data[i].stock_qty + '\n';
 
